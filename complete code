@@ -1,0 +1,122 @@
+<html>
+<header class="header">
+<style>
+
+    html, body {
+        width: 100%;
+        height: 100%;
+        background-color: black;
+    }
+    
+    h1, h4, p {
+      color: #AAAAAA;
+    }
+    
+    a, a:visited{
+      color: white;
+    }
+    
+    a:hover{
+      color:gray;
+    }
+    
+  
+    
+    .container {
+      margin-top: 50px;
+    }
+    .header {
+        display: table;
+        position: relative;
+        width: 100%;
+        height: 100%;
+        background: url(https://fanart.tv/fanart/music/a9ee533f-8871-4f62-a6bb-91eb264abc90/artistbackground/apple-fiona-516f128b9b203.jpg) no-repeat center center scroll;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
+    }
+    .title {
+      color: white;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 5em;
+      font-weight: bold;
+    }
+    
+    .text-vertical-center {
+      display: table-cell;
+      text-align: center;
+      vertical-align: middle;
+    }
+    
+    .margin-bottom {
+      margin-bottom: 30px;  
+    }
+    
+    .album-photo {
+      border: 1px solid black;
+      border-radius: 2%;
+    }
+
+</style>
+
+
+    <div class="text-vertical-center">
+      <h1 class="title">Jennie Ruby Jane</h1>
+      <a href="#about">
+        <span class="fa-stack fa-2x">
+          <i class="fa fa-square-o fa-stack-2x"></i>
+          <i class="fa fa-angle-double-down fa-stack-1x"></i>
+        </span>
+      </a>
+    </div>
+  </header>
+
+
+<body>
+  <div id="about" class="container">
+    <div class="row">
+       <h1 class="page-header">About</h1>
+       <div class="col-md-8">
+         <div>
+           <p> <strong>Jennie Ruby Jane </strong>(born January 16, 1996) is a K-Pop sensation who has become a global phenomenon. With her mesmerizing vocals, dynamic dance moves, and undeniable star power, Jennie has taken the music industry by storm. As a member of the internationally acclaimed group BLACKPINK, she has helped redefine the landscape of K-Pop with chart-topping hits like "DDU-DU DDU-DU" and "How You Like That." Jennie's talent extends beyond singing and dancing – she is also a skilled rapper and songwriter.</p>
+           <p>Jennie's influence transcends the stage, making her a fashion icon and a trendsetter. Her unique sense of style has garnered attention and admiration from fans and fashion enthusiasts around the world. Whether she's rocking streetwear or high-end couture, Jennie effortlessly combines elegance and edginess, leaving a lasting impression wherever she goes.</p>
+           <p>In addition to her musical endeavors, Jennie is known for her philanthropy and advocacy. She actively participates in charitable initiatives and uses her platform to raise awareness about important social issues. Her dedication to making a positive impact and her genuine connection with fans have endeared her to millions.</p>
+           <p>Jennie's talent, charisma, and dedication have earned her numerous accolades and a dedicated fan base that spans continents. She continues to push boundaries, break records, and inspire aspiring artists worldwide. With her magnetic personality and unwavering passion for music, Jennie Ruby Jane is undoubtedly a force to be reckoned with in the ever-evolving world of K-Pop.</p>
+           <p>To learn more about Jennie, see her page at <a href="https://en.wikipedia.org/wiki/Jennie_(singer)" target="_blank">Wikipedia</a></p>
+         </div>
+       </div>
+       <div class="col-md-4">
+         <img class="img-responsive" alt="Something went wrong" src="https://assets.vogue.com/photos/6228fe4bb83d1d42ee371461/master/w_1920%2Cc_limit/chanel_jennie_chanel_fw_rtw_show_2022-23_4-HD.jpg" width="600" height="800">
+       </div>
+    </div>
+  </div>
+  
+  <div id="discography" class="container">
+    <div class="row">
+       <h1 class="page-header">Discography</h1>
+       <div class="margin-bottom col-sm-6 col-md-3 text-center">
+         <h4><strong>Solo</strong></h4>
+         <a href="https://en.wikipedia.org/wiki/Solo_(Jennie_song)" target="_blank"> <img class="album-photo img-responsive" src="https://upload.wikimedia.org/wikipedia/en/2/20/Jennie_%E2%80%93_%22Solo%22_%E2%80%93_Digital_Cover.png" alt="Can't load image"> </a>
+       </div>
+      <div class="margin-bottom col-xs-12 col-sm-6 col-md-3 text-center">
+         <h4><strong>The Album</strong></h4>
+         <a href="https://en.wikipedia.org/wiki/The_Album_(Blackpink_album)" target="_blank"> <img class="album-photo img-responsive" src="https://upload.wikimedia.org/wikipedia/en/f/f2/BLACKPINK-_The_Album.png" alt="Can't load image" > </a>
+       </div>
+      <div class="margin-bottom col-xs-12 col-sm-6 col-md-3 text-center">
+         <h4><strong>Born Pink</strong></h4>
+         <a href="https://en.wikipedia.org/wiki/Born_Pink" target="_blank"> <img class="album-photo img-responsive" src="https://upload.wikimedia.org/wikipedia/en/e/e7/Born_Pink_Digital.jpeg" alt="Can't load image" > </a>
+       </div>
+    </div>
+  </div>
+  
+  <br>
+</body>
+  <footer>
+    <div class="row">
+      <div class="col-md-offset-4 col-md-4 text-center">
+        <p>coded by <a target="_blank" href="https://github.com/jyothiika">jyothika</a></p>
+      </div>
+    </div>
+  </footer>
+  </html>
